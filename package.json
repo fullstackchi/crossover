@@ -46,6 +46,9 @@
   "engines": {
     "node": ">=18.18.2"
   },
+  "config": {
+    "electronUpgradeTarget": "44"
+  },
   "scripts": {
     "install": "npm run css",
     "css": "sass src/renderer/styles/index.scss:src/renderer/styles/dist/index.css src/renderer/styles/preferences.scss:src/renderer/styles/dist/preferences.css -s compressed",
